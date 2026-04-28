@@ -17,3 +17,7 @@
 [submodule "submodules/SteamWorks"]
 	path = submodules/SteamWorks
 	url = https://github.com/KyleSanderson/SteamWorks.git
+[submodule "submodules/csgo-sm-globalapi"]
+	path = submodules/csgo-sm-globalapi
+	url = https://github.com/KZGlobalTeam/csgo-sm-globalapi
+	branch = misc
