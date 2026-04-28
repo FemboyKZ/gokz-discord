@@ -3,17 +3,17 @@
 	url = https://github.com/zer0k-z/more-stats.git
 [submodule "submodules/gokz"]
 	path = submodules/gokz
-	url = https://github.com/kzglobalteam/gokz
+	url = https://github.com/KZGlobalTeam/gokz.git
 	branch = dev
 [submodule "submodules/discord-api"]
 	path = submodules/discord-api
 	url = https://github.com/KillStr3aK/discord-api.git
 [submodule "submodules/DateTime"]
 	path = submodules/DateTime
-	url = https://github.com/KillStr3aK/DateTime
+	url = https://github.com/KillStr3aK/DateTime.git
 [submodule "submodules/sm-json"]
 	path = submodules/sm-json
-	url = https://github.com/clugg/sm-json
+	url = https://github.com/clugg/sm-json.git
 [submodule "submodules/SteamWorks"]
 	path = submodules/SteamWorks
 	url = https://github.com/KyleSanderson/SteamWorks.git
