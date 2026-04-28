@@ -14,7 +14,6 @@
 #include <gokz/localranks>
 #include <gokz/global>
 #include <more-stats>
-#include <updater>
 
 #define REQUIRE_EXTENSIONS
 #define REQUIRE_PLUGIN
@@ -32,11 +31,9 @@ public Plugin myinfo =
 	name = "GOKZ Discord",
 	author = "zer0.k",
 	description = "",
-	version = "0.2.0",
+	version = "0.2.1",
 	url = "https://github.com/zer0k-z/gokz-discord"
 };
-
-#define UPDATER_URL "https://raw.githubusercontent.com/zer0k-z/gokz-discord/updater/updatefile.txt"
 
 public void OnPluginStart()
 {
@@ -47,11 +44,6 @@ public void OnPluginStart()
 
 	InitAnnounceTimer();
 	RegConsoleCmd("sm_testdiscord", DiscordInit);
-
-	if (LibraryExists("updater"))
-	{
-		Updater_AddPlugin(UPDATER_URL);
-	}
 }
 
 static void CreateConVars()
@@ -98,11 +90,6 @@ public void OnAllPluginsLoaded()
 		SetFailState("[GOKZ-Discord] Missing required plugin: gokz-core");
 	}
 
-	if (LibraryExists("updater"))
-	{
-		Updater_AddPlugin(UPDATER_URL);
-	}
-
 	if (LibraryExists("gokz-global"))
 	{
 		gB_GOKZGlobal = true;
@@ -119,10 +106,6 @@ public void OnAllPluginsLoaded()
 
 public void OnLibraryAdded(const char[] name)
 {
-	if (StrEqual(name, "updater"))
-	{
-		Updater_AddPlugin(UPDATER_URL);
-	}
 	if (StrEqual(name, "gokz-global"))
 	{
 		gB_GOKZGlobal = true;
