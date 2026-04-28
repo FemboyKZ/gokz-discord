@@ -29,10 +29,10 @@
 public Plugin myinfo =
 {
 	name = "GOKZ Discord",
-	author = "zer0.k",
+	author = "zer0.k, (fkz fork)",
 	description = "",
-	version = "0.2.1",
-	url = "https://github.com/zer0k-z/gokz-discord"
+	version = "0.2.2",
+	url = "https://github.com/FemboyKZ/gokz-discord"
 };
 
 public void OnPluginStart()
