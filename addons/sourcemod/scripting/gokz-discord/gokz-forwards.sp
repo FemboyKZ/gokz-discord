@@ -37,7 +37,7 @@ public void GOKZ_OnTimerEnd_Post(int client, int course, float time, int telepor
 	gA_Records.PushArray(record);
 }
 
-public void GOKZ_GL_OnNewTopTime(int client, int course, int mode, int timeType, int rank, int rankOverall, float runTime)
+public void GOKZ_GL_OnNewTopTime(int client, int course, int mode, int timeType, int rank, int rankOverall, float runTime, const char[] mapName)
 {
 	if (!gCV_UseGlobalRank.BoolValue)
 	{
@@ -55,7 +55,7 @@ public void GOKZ_GL_OnNewTopTime(int client, int course, int mode, int timeType,
 	for (int i = 0; i < gA_Records.Length; i++)
 	{
 		gA_Records.GetArray(i, record);
-		if (record.InitGlobal(client, course, mode, timeType, rank, rankOverall, runTime))
+		if (record.InitGlobal(client, course, mode, timeType, rank, rankOverall, runTime, mapName))
 		{
 			gA_Records.SetArray(i, record);
 			break;
