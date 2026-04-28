@@ -22,7 +22,7 @@ Changing the webhook's name or channel will **not** alter the link.
 ### Requirements
 
 * Sourcemod and Metamod
-* [GOKZ](https://bitbucket.org/kztimerglobalteam/gokz), with global and/or localranks modules
+* [GOKZ](https://github.com/kzglobalteam/gokz), with global and/or localranks modules
 * [SteamWorks](https://forums.alliedmods.net/showthread.php?t=229556)
 * [More Stats](https://github.com/zer0k-z/more-stats) (Optional)
 
