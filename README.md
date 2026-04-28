@@ -1,6 +1,6 @@
 # GOKZ - Discord Module
 
-![Downloads](https://img.shields.io/github/downloads/zer0k-z/gokz-discord/total?style=flat-square) ![Last commit](https://img.shields.io/github/last-commit/zer0k-z/gokz-discord?style=flat-square) ![Open issues](https://img.shields.io/github/issues/zer0k-z/gokz-discord?style=flat-square) ![Closed issues](https://img.shields.io/github/issues-closed/zer0k-z/gokz-discord?style=flat-square) ![Size](https://img.shields.io/github/repo-size/zer0k-z/gokz-discord?style=flat-square) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/zer0k-z/gokz-discord/Compile%20with%20SourceMod?style=flat-square)
+![Downloads](https://img.shields.io/github/downloads/FemboyKZ/gokz-discord/total?style=flat-square) ![Last commit](https://img.shields.io/github/last-commit/FemboyKZ/gokz-discord?style=flat-square) ![Open issues](https://img.shields.io/github/issues/FemboyKZ/gokz-discord?style=flat-square) ![Closed issues](https://img.shields.io/github/issues-closed/FemboyKZ/gokz-discord?style=flat-square) ![Size](https://img.shields.io/github/repo-size/FemboyKZ/gokz-discord?style=flat-square) ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/FemboyKZ/gokz-discord/master.yml?style=flat-square)
 
 An optional module for GOKZ that posts server records to a Discord channel using webhooks.
 
