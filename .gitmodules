@@ -7,7 +7,7 @@
 	branch = dev
 [submodule "submodules/discord-api"]
 	path = submodules/discord-api
-	url = https://github.com/KillStr3aK/discord-api.git
+	url = https://github.com/FemboyKZ/discord-api.git
 [submodule "submodules/DateTime"]
 	path = submodules/DateTime
 	url = https://github.com/KillStr3aK/DateTime.git
